@@ -87,6 +87,9 @@ public class AppleTest {
 
         String expected = "Your Apple ID or password was incorrect.";
         Assert.assertEquals(expected, appleLoginPage.getErrorMessage());
+
+        
+        Assert.assertEquals(expected, appleLoginPage.getErrorMessage());
     }
     @AfterSuite
 
